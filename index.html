@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crystal - portfolio</title>
+</head>
+<style>
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+</style>
+<body>
+    <div class=" container row center-align" style="padding-top:210px; padding-bottom: 200px;">
+        <div class="col s12 ">
+          <div class="card black" style="opacity: 0.7;">
+            <div class="card-content white-text">
+              <span class="card-title" >
+                <h3>Hello!</h3>
+                <h1 class="pink-text">I'm Crystal Alice</h1>
+                <h3>A Full Stack Web Developer</h3>
+              </span>
+            </div>
+          </div>
+        </div>
+        <a href="portfolio.html" class="btn tooltipped btn-large black" data-position="bottom" data-tooltip="Click to view portfolio">PORTFOLIO</a>
+      </div>
+
+      
+
+      <div class="footer-copyright center-align">
+        <div class="container white-text">
+          <p>“You might not think that programmers are artists, but programming is an extremely creative profession. It's
+            logic-based creativity" <br> - John Romero</p>
+          <p>© 2020 crystal alice</p>
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+
+      <script>
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tooltipped');
+    var instances = M.Tooltip.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });
+
+      </script>
+</body>
+</html>
